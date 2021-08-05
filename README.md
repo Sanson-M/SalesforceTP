@@ -1,3 +1,4 @@
 # SalesforceTP
 
-![RelacionesSalesforce](https://user-images.githubusercontent.com/83475063/128375846-c2b4791f-6cd8-4317-b4f9-eaeeec9f3ea7.png)
+![Untitled ttDiagram](https://user-images.githubusercontent.com/83475063/128376319-2dcf260f-8fdb-4c3a-b14c-ba3f743d1193.png)
+
