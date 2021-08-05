@@ -1,4 +1,3 @@
 # SalesforceTP
 
-![Untitled ttDiagram](https://user-images.githubusercontent.com/83475063/128376319-2dcf260f-8fdb-4c3a-b14c-ba3f743d1193.png)
-
+![DiagramRelationSales](https://user-images.githubusercontent.com/83475063/128378446-d7cb9489-e6f8-4ad9-a517-415feea476ed.png)
