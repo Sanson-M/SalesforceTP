@@ -14,12 +14,12 @@ Los headers son un campo central tanto en los request como en el response, encar
 Un queryString es la parte de la URL que contienen los datos que deben ser pasados a las aplicaciones web, generalmente se encuentran ubicados detrás de un ‘?’.
 
 5.	¿Qué es un responseCode? ¿Qué significado tienen los posibles valores devueltos?   
-Los responseCode son códigos de respuesta por parte del servidor que indican el resultado a una solicitud HTTP, sus posibles valores pueden ser:
-•	Respuestas informativas (cod100-199);
-•	Respuestas satisfactorias (cod200-299);
-•	Redirecciones (300-399);
-•	Errores de los clientes (400-499);
-•	Errores de los servidores (500-599).
+Los responseCode son códigos de respuesta por parte del servidor que indican el resultado a una solicitud HTTP, sus posibles valores pueden ser:  
+•	Respuestas informativas (cod100-199);  
+•	Respuestas satisfactorias (cod200-299);  
+•	Redirecciones (300-399);  
+•	Errores de los clientes (400-499);  
+•	Errores de los servidores (500-599).  
 
 6.	¿Cómo se envía data en un GET y como en un POST?  
 En un GET, los datos enviados que se envían a un servidor se escriben en la misma dirección URL(queryString), mientras que el POST introduce la data en una solicitud HTTP por lo cual no quedan a vista del usuario.
@@ -74,6 +74,9 @@ El key Contect-type es un header utilizado para indicar el tipo de contenido del
 
 ### ¿Qué diferencias se observan entre las llamadas del punto 1 y 3?  
 Las diferencias halladas entre ambos request GET están en que en el último de estos se muestra cómo se agregó/almaceno un nuevo recurso proveniente del body realizado en el POST. 
+
+## Ejercicio 4. Modulos de Trailhead.
+Link a mi perfil en Trailhead:  https://trailblazer.me/id/mesanson
 
 ## Ejercicio 5. Objetos de Salesforce.  
 1.	Lead: Contacto de un cliente potencial para la compañía.  
