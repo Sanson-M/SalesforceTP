@@ -50,7 +50,7 @@ Ejemplo:
 	<autor>Ray Bradbury</autor>
 	<titulo>Fahrenheit 451</titulo>
 	<precio modena=”pesos argentinos”>500</precio>
-              <editorial>De bolsillo</editorial>
+        <editorial>De bolsillo</editorial>
 </iibro>
 ```
 9.	Explicar brevemente el estándar SOAP  
