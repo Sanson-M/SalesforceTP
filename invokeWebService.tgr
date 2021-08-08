@@ -1,0 +1,22 @@
+trigger invokeWebService on Contact (after insert, after update) 
+{//cuando un usuario modifica o crea un contacto en SF    
+    List<String> contToUpdate = new List<String>();
+
+    //Antes de operar compruebo que no estoy re-llamando al trigger desde 
+    //el metodo futuro, asi evito un loop
+    if(System.isFuture()==false)
+    {
+        for(Contact contact : Trigger.New )
+        {//En caso de que se esten creando/actualizando varios usuarios a la vez
+            if(contact.idvirtualdreams__c != NULL)
+            {//Solo si se tiene el campo idvirtualdreams trabajo               
+                contToUpdate.add(contact.idvirtualdreams__c);
+            }
+            
+            if(contToUpdate.size()>0)
+            {//Envio al metodo future aquellos contactos con el campo requerido
+               getWebService.updateMethod(contToUpdate);
+            }
+        }
+    }
+}
