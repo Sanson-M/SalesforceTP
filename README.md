@@ -156,10 +156,13 @@ Almacena datos sobre:
 
 ![DiagramRelationSales](https://user-images.githubusercontent.com/83475063/128378446-d7cb9489-e6f8-4ad9-a517-415feea476ed.png)
 
-## Ejercicio 6.  
-Parte A. Consulta con un GET en POSTMAN, mi ID es: -MgLzjG23khM6zxu-7QN
-![getMiId](https://user-images.githubusercontent.com/83475063/128648279-3f0ac23b-1308-4eb1-aba0-77fa1bf5bbab.png)
+## Ejercicio 6. Actividades Playground. 
+Parte A. Consulta con un GET en POSTMAN, mi ID es: -MgLzjG23khM6zxu-7QN  
+![getMiId](https://user-images.githubusercontent.com/83475063/128648279-3f0ac23b-1308-4eb1-aba0-77fa1bf5bbab.png)  
 
+Parte C.     
+- Trigger: https://github.com/UnlaMAccEstud/SalesforceTP/blob/main/invokeWebService.tgr    
+- Callout HTTP: https://github.com/UnlaMAccEstud/SalesforceTP/blob/main/getWebService.cls    
 
 ## Ejercicio 7. 
 ### Soluciones de Salesforce  
