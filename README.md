@@ -113,3 +113,7 @@ Almacena datos sobre el lenguaje en el que se encuentra escrito, versión, numer
 ### Diagrama de relaciones realizado en Drawio:  
 
 ![DiagramRelationSales](https://user-images.githubusercontent.com/83475063/128378446-d7cb9489-e6f8-4ad9-a517-415feea476ed.png)
+
+## Ejercicio 6.  
+
+## Ejercicio 7. 
