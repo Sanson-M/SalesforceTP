@@ -1,5 +1,5 @@
 # SalesforceTP
-Ejercicio 2. Protocolo HTTP (Hypertext Transfer Protocol)
+## Ejercicio 2. Protocolo HTTP (Hypertext Transfer Protocol)
 1.	¿Qué es un servidor HTTP?   
 El servidor HTTP, o también llamado servidor web, es un software que hace uso del protocolo HTTP para almacenar os archivos que conforman a una página web y devolver su información al usuario cuando se solicite.
   
@@ -46,12 +46,12 @@ Ejemplo:
 Las estructuras XML se conforman de etiquetas y datos; pudiendo ser estructuras, vectores, etc.  
 Ejemplo:
 ```XML
-<libro>
-	<autor>Ray Bradbury</autor>
-	<titulo>Fahrenheit 451</titulo>
-	<precio modena=”pesos argentinos”>500</precio>
-        <editorial>De bolsillo</editorial>
-</iibro>
+	<libro>
+		<autor>Ray Bradbury</autor>
+		<titulo>Fahrenheit 451</titulo>
+		<precio modena=”pesos argentinos”>500</precio>
+		<editorial>De bolsillo</editorial>
+	</iibro>
 ```
 9.	Explicar brevemente el estándar SOAP  
 El estándar SOAP es un protocolo basado en XML que define como dos objetos en diferentes procesos pueden comunicarse por medio del intercambio de datos; cada uno de estos mensajes consta de envelope(contenido y forma de procesarlo), header(codificación) y body(mensaje).
@@ -63,7 +63,7 @@ Servicio que funciona como estándar para compartir información con un sistema 
 Los headers en un request son headersHTTP usados, opcionalmente, para proporcionar información sobre el contexto de la solicitud enviada al servidor, así este adecue su respuesta.
 El key Contect-type es un header utilizado para indicar el tipo de contenido del recurso con el que se va a trabajar.
 
-Ejercicio 3. Request HTTP.
+## Ejercicio 3. Request HTTP.
 
 1. Primer request GET a la URL:  
 ![PRIMER GET](https://user-images.githubusercontent.com/83475063/128638652-3985c9c6-2676-4ed8-85e5-07e9ccc1f082.png)
@@ -72,10 +72,10 @@ Ejercicio 3. Request HTTP.
 3. Segundo request GET:  
 ![SEGUNDO GET](https://user-images.githubusercontent.com/83475063/128638734-09c29476-dd7f-4444-af76-99470beecd75.png)
 
-¿Qué diferencias se observan entre las llamadas del punto 1 y 3?  
+### ¿Qué diferencias se observan entre las llamadas del punto 1 y 3?  
 Las diferencias halladas entre ambos request GET están en que en el último de estos se muestra cómo se agregó/almaceno un nuevo recurso proveniente del body realizado en el POST. 
 
-Ejercicio 5. Objetos de Salesforce.  
+## Ejercicio 5. Objetos de Salesforce.  
 1.	Lead: Contacto de un cliente potencial para la compañía.  
 Almacena datos sobre localidad(dirección, ciudad, país), salario (ingresos monetarios anuales), contacto (email, número de teléfono, etc.), nombre completo, etc.
 
@@ -107,6 +107,6 @@ Almacena información de contacto(email, fax, id, teléfono, etc.), numero de re
 Representa la relación entre un Case y el KnowledArticle el cual otorga información (solo de lectura o eliminación) sobre el inconveniente a tratar.  
 Almacena datos sobre el lenguaje en el que se encuentra escrito, versión, numero de caso, etc.
 
-Diagrama de relaciones realizado en Drawio:  
+### Diagrama de relaciones realizado en Drawio:  
 
 ![DiagramRelationSales](https://user-images.githubusercontent.com/83475063/128378446-d7cb9489-e6f8-4ad9-a517-415feea476ed.png)
