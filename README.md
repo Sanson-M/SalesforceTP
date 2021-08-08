@@ -32,16 +32,16 @@ Las estructuras JSON y XML son utilizadas para intercambiar y organizar datos en
 Las estructuras JSON se componen de dos partes: Una colección de pares con nombres y valor(Objetos, registros, estructuras, etc.), y una lista ordenada de valores(arrays).
 Ejemplo:
 ```JSON
-  {
-  “persona”:
-    {
-      “nombre”:”Alicia”,
-      “edad”:26,
-      “oficio”:”Profesora”,
-      “idiomas”:”[“Español”,“Ingles”,”Frances”],
-      “provincia”:”Buenos Aires”
-    }
-  }
+	  {
+	  “persona”:
+	    {
+	      “nombre”:”Alicia”,
+	      “edad”:26,
+	      “oficio”:”Profesora”,
+	      “idiomas”:”[“Español”,“Ingles”,”Frances”],
+	      “provincia”:”Buenos Aires”
+	    }
+	  }
 ```
 Las estructuras XML se conforman de etiquetas y datos; pudiendo ser estructuras, vectores, etc.  
 Ejemplo:
