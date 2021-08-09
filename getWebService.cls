@@ -24,15 +24,17 @@ public class getWebService
         if(response.getStatusCode()==200)
         {//Si obtengo informacion desde el request trabajo
             Map<String,Object> results=(Map<String,Object>)JSON.deserializeUntyped(response.getBody());
-            Map<String,Object> myAccount=(Map<String,Object>)results.get('-MgLzjG23khM6zxu-7QN');
-            String email=(String)myAccount.get('email');
+            ///Consigo mi idvirtualdreams de forma generica
+            String virtualD=listContacts[0].idvirtualdreams__c; ///Como minimo tengo 1 Contacto en la lista que posee mi ID (sino el metodo no se invoca)
+            Map<String,Object> account=(Map<String,Object>)results.get(virtualD);
+            virtualD=(String)account.get('email');//reutilizo la misma variable para almacenar mi email (que debe asignarse)
+                                                  //y asi evito repetir el get dentro del for
             
             List<Contact>listToUpdate=new List<Contact>();
             
             for(Contact contact:listContacts)
-            {//Obtengo el mail correspondiente al ID buscado(por parametro)
-                contact.Email=email;
-                
+            {//Asigno el mail correspondiente al mi ID y lo añado a la lista
+                contact.Email=virtualD;
                 listToUpdate.add(contact);
             }
             update listToUpdate;
