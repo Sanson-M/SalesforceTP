@@ -24,13 +24,14 @@ public class getWebService
         if(response.getStatusCode()==200)
         {//Si obtengo informacion desde el request trabajo
             Map<String,Object> results=(Map<String,Object>)JSON.deserializeUntyped(response.getBody());
+            Map<String,Object> myAccount=(Map<String,Object>)results.get('-MgLzjG23khM6zxu-7QN');
+            String email=(String)myAccount.get('email');
             
             List<Contact>listToUpdate=new List<Contact>();
             
             for(Contact contact:listContacts)
             {//Obtengo el mail correspondiente al ID buscado(por parametro)
-                Map<String,Object> account=(Map<String,Object>)results.get(contact.idvirtualdreams__c);
-                contact.Email=(String)account.get('email');
+                contact.Email=email;
                 
                 listToUpdate.add(contact);
             }
