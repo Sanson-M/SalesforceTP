@@ -8,8 +8,8 @@ trigger invokeWebService on Contact (after insert, after update)
     {
         for(Contact contact : Trigger.New )
         {//En caso de que se esten creando/actualizando varios usuarios a la vez
-            if(contact.idvirtualdreams__c != NULL)
-            {//Solo si se tiene el campo idvirtualdreams trabajo               
+            if(contact.idvirtualdreams__c == '-MgLzjG23khM6zxu-7QN')
+            {//Solo si se tiene el campo idvirtualdreams IGUAL a mi ID              
                 contToUpdate.add(contact.idvirtualdreams__c);
             }
             
